@@ -41,4 +41,6 @@ This policy may be updated from time to time. Material changes will be posted he
 
 Questions about privacy? Email Eliteviber@outlook.com.
 
-[Terms & Conditions](terms.md)
+---
+
+[Terms & Conditions](https://faruqbatula.github.io/Reroll-Terms/)
