@@ -40,3 +40,5 @@ This policy may be updated from time to time. Material changes will be posted he
 ## Contact
 
 Questions about privacy? Email Eliteviber@outlook.com.
+
+[Terms & Conditions](terms.md)
