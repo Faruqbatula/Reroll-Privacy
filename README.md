@@ -1,46 +1,58 @@
-# Reroll-Privacy
-Privacy policy for Reroll
+# Privacy policy for Reroll
 
-Effective date: 17 July 2026
+Effective date: 5 August 2026
 
 Reroll is developed by Faruq Batula ("the Service Provider"). This policy explains how Reroll ("the Application") handles your information.
 
 ## The short version
 
-Reroll does not collect, store, or transmit any personal data. Everything you do in the Application stays on your device. There are no accounts, no servers operated by the Service Provider, no analytics tracking, and no advertising.
+Reroll has no accounts, no third-party analytics, no advertising, and no tracking. Your lives, your avatar, your purchases and all usage counters stay on your iPhone, and nothing is ever sold or shared with data brokers.
 
-## Information we collect
+One thing may leave your device, and only on some iPhones. Typing your own actions needs an AI storyteller:
 
-None. The Application has no network connection to any server operated by the Service Provider. Your game data — the lives you play, your choices, and any text you enter — is stored only on your device and is never sent anywhere.
+- **iPhones with Apple Intelligence** (iPhone 15 Pro and newer, running iOS 26 or later) run the storyteller **entirely on your device**. Nothing is transmitted.
+- **iPhones without Apple Intelligence** cannot run it locally. On those devices, the action you type is **sent to our server to be written, and then discarded.**
 
-## On-device AI
+Settings ▸ On this iPhone tells you which applies to your device.
 
-On supported devices, Reroll uses Apple Intelligence to generate story content on your device. This processing happens entirely on your device using Apple's on-device models. The Service Provider does not receive, store, or have access to anything you type or any content generated.
+## What is sent, and only when you type an action
 
-## Purchases
+On devices without Apple Intelligence, each time you submit a typed action we send:
 
-Reroll offers an optional subscription (Reroll Plus) and in-app purchases. All payments are processed by Apple through the App Store. The Service Provider never receives or stores your payment details. Apple's handling of your purchase information is governed by Apple's Privacy Policy (https://www.apple.com/legal/privacy/).
+- **The action text you typed.**
+- **The life context needed to judge it:** your character's age, era, country, occupation, education, money and health band, the first names and roles of people in that life, and active story flags.
+- **A random per-install identifier**, used to count your free actions and apply fair-use limits.
+
+We do **not** send your name, contacts, location, email, device identifiers, your other lives, or your purchase history.
+
+## What is kept
+
+**The action text and life context are not stored.** They are processed to produce the outcome and then discarded. They are never written to a database, never logged, and never used to train any AI model.
+
+**The per-install identifier is kept**, as a salted cryptographic hash, solely to count how many free actions an installation has used. This identifier is a random value created when you install the app. It is **not** your Apple ID, not your advertising identifier (IDFA), not your vendor identifier (IDFV), and not derived from any device or hardware identifier. It cannot be linked to you, to your device, or to anything else about you, and it is never used for advertising, tracking or profiling. Deleting the app forgets it — which also resets your free actions.
+
+Our server also keeps aggregate counters (how many actions have been used, and a running total of processing cost). These contain no text and are not tied to any person.
+
+## Who processes it
+
+Our service runs on Cloudflare Workers, and the writing is performed by an open AI model on Cloudflare Workers AI. Cloudflare does not retain the prompts or outputs sent to Workers AI, and does not use them to train AI models.
+
+## What stays on your device
+
+Your lives (including the text of actions you have typed, saved so a life can be replayed exactly), your avatar, your subscription status, and aggregate usage counters are stored on your iPhone only and are never transmitted.
 
 ## Children
 
-Reroll is rated 17+ and is not directed at children. Because the Application collects no personal data from anyone, it collects none from children.
+Reroll is not directed at children under 13, and we do not knowingly collect personal information from children.
 
-## Data retention and deletion
+## Your choices
 
-Because no data is collected or transmitted, there is nothing for the Service Provider to retain or delete. All game data lives on your device and is removed if you delete the Application.
+If you do not want typed actions sent for processing, simply do not use the "Do anything…" text box; the rest of the game is fully playable without it and works entirely offline.
 
-## Your rights
+## Changes
 
-Since the Service Provider holds no personal data about you, there is nothing to access, correct, or delete on our side. All your data is under your control on your own device.
-
-## Changes to this policy
-
-This policy may be updated from time to time. Material changes will be posted here with a revised effective date.
+This policy may be updated as the Application changes. Continued use after an update constitutes acceptance of the revised policy.
 
 ## Contact
 
-Questions about privacy? Email Eliteviber@outlook.com.
-
----
-
-[Terms & Conditions](https://faruqbatula.github.io/Reroll-Terms/)
+Questions about this policy: Eliteviber@outlook.com
